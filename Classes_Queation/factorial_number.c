@@ -21,7 +21,7 @@ int main() {
 
     int num;
     printf("Enter a number to find its factorial: ");
-    scanf("%d, &num");
+    scanf("%d", &num);
 
     if (num < 0) {
         printf("Factorial is not defined for negative number.\n");
