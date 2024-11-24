@@ -24,7 +24,7 @@ int findLargest(int array[ROWS][COLS]) {
 void multiplyArray(int array[ROWS][COLS], int multiplier, int result[ROWS][COLS]) {
     for (int i = 0; i < ROWS; i++)
     {
-        for (int j = 0; j < COLS; j++)
+        for (int j = 0; j < COLS; i++)
         {
             result[i][j] = array[i][j] * multiplier;
         }
@@ -59,7 +59,7 @@ int main() {
         {7, 8, 9}
     };
 
-    int array2[ROWS][COLS] {
+    int array2[ROWS][COLS] = {
         {9, 8, 7},
         {6, 5, 4}, 
         {3, 2, 1}
