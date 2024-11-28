@@ -30,7 +30,7 @@ int main() {
     if (num < 0) {
         printf("The negative number don't have a factorial number.");
     }else {
-        int resultRecursion = factorialIteration(num);
+        int resultRecursion = factorialRecursion(num);
         printf("Recursion (using recursion) : %d\n", resultRecursion);
 
         int resultIteration = factorialIteration(num);
